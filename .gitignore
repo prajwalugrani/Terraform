@@ -1,0 +1,15 @@
+# Local Terraform files
+.terraform/
+*.tfstate
+*.tfstate.backup
+*.tfvars  # Except terraform.tfvars (if non-sensitive)
+.terraform.lock.hcl
+
+# IDE/Editor files
+.idea/
+.vscode/
+*.swp
+
+# Sensitive files
+*.pem
+*.env
